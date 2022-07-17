@@ -23,6 +23,7 @@ html = `
           <li>Age:${age}</li>
           <li>Job:${job}</li>
           <li>City${city}</li>
+          <li>${age > 30 ? 'Over 30': 'Under 30'}</li>
         </ul>
 
       `;
